@@ -62,9 +62,83 @@
 }
 
 .footer{
+    display: flex;
+    /* justify-content: space-between; */
     height: 70px;
     background-color: #222222;
 }
+
+.icon-bar{
+    width: 72px;
+    text-align: center;
+    line-height: 20px;
+    padding-top: 10px;
+    color: white;
+    font-size: 12px;
+}
+
+.icon{
+    font-size: 25px;
+    margin: 0 15px;
+    color: white;
+}
+.arrow{
+    line-height: 70px;
+    color: white;
+    font-size: 10px;
+}
+
+.icon-bar.center{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    max-width: 1280px;
+    flex-grow: 1;
+}
+
+.end-meeting{
+    color: red;
+    line-height: 70px;
+    background-color: #4A4A4A;
+    font-size: 13px;
+    padding: 0 15px;
+}
+
+.icon.center{
+    margin: 0 10px;
+}
+
+.icon.green{
+    color: green;
+}
+
+.share{
+    margin-right: 20px;
+    position: relative;
+}
+
+.arrow-share{
+    position: absolute;
+    bottom: 30px;
+    right: -20px;
+}
+
+.icon:hover{
+    color: #ff2929;
+}
+
+.description:hover{
+    color: #ff2929;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
 
 
 
