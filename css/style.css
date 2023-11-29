@@ -6,8 +6,65 @@
     box-sizing: border-box;
 }
 
-.conteiner{
-    max-width: 1080px;
-    margin: 0 auto;
-    padding: 0 15px;
+.header{
+    height: 50px;
+    background-color: black;
 }
+
+.header-conteiner{
+    text-align: end;
+    height: 100%;
+    padding: 10px 25px 0 0;
+    font-size: 0.75rem;
+}
+
+.speakerview{
+    text-decoration: none;
+    color: white;
+    background-color: #4A4A4A;
+    padding: 0.25rem;
+    border-radius: 5px;
+}
+
+.wrapper{
+    height: calc(100vh - 50px - 70px);
+    overflow-y: auto;
+    background-color: black;
+}
+
+.webcam-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0.5rem auto;
+    width: 100%;
+}
+
+.webcam{
+    width: 195px;
+    height: 120px;
+    margin: 4px 2px;
+    position: relative;
+
+    /* debug */
+    /* background-color: #4A4A4A; */
+}
+
+.name{
+    bottom: 0;
+    left: 0;
+    padding: 3px;
+    font-size: 0.75rem;
+    color: white;
+    border-radius: 2px;
+    background-color: #66717D;
+    position: absolute;
+}
+
+.footer{
+    height: 70px;
+    background-color: #222222;
+}
+
+
+
